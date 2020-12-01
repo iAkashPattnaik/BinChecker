@@ -35,7 +35,7 @@ Future ChannelCheck(user_id) async {
 void main() {
   var token = Platform.environment['BotToken'];
   print('Starting Bot With Token - "${token}"');
-  var bot = TeleDart(Telegram('1453283665:AAFcMD73SAYXclsFXs3HIbAKjmf9kCcmU78'), Event());
+  var bot = TeleDart(Telegram(token), Event());
 
   bot.start().then((me) async {
     print('@${me.username} Is Initialised');
@@ -46,7 +46,7 @@ void main() {
       .onCommand('start')
       .listen((message) async {
         await message.replySticker(
-          io.File('./welcome_photo.webp')
+          io.File('./bin/welcome_photo.webp')
         );
         await message.reply('<b>Hoi ${message.from.first_name},\nWelcome To IndianBots Bin Checker..\n\nAll My Commands Are Here - /commands</b>', parse_mode: 'html');
       });
@@ -71,7 +71,7 @@ void main() {
         var req = ChannelCheck(user_id);
         if (req.toString() == 'ok') {
           message.replyPhoto(
-              'https://raw.githubusercontent.com/DinoLeung/TeleDart/master/example/dash_paper_plane.png',
+              io.File('./bin/logo.png'),
               caption: '<b>My Source Code Is On Github...\n'
                   'https://github.com/IndianBots/BinChecker/\n'
                   '\n'
