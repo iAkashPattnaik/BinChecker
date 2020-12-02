@@ -1,0 +1,15 @@
+name: BinChecker
+description: "A BinChecker Bot Made In Pure Dart Native."
+version: "1.0.0"
+homepage: "https://github.com/IndianBots/BinChecker/"
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  path: ^1.7.0
+  teledart: ^0.1.1
+  http: ^0.12.2
+
+dev_dependencies:
+  pedantic: ^1.9.0
