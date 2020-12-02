@@ -7,6 +7,11 @@
     "website": "https://github.com/IndianBots/BinChecker/",
     "success_url": "https://github.com/IndianBots/BinChecker/",
     "env": {
+       "ENV": {
+            "description": "For Heroku.",
+            "value": "true",
+            "required": true
+       },
         "ChannelId": {
             "description": "The Id Of The Channel Where Users Will Join To Use The Bot.",
             "value": "-",
