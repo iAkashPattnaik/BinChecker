@@ -735,11 +735,29 @@ dart bin/DartChecker.dart
     <br>
     <b>If You Wanna Deploy To Heroku,
     <br>
-    Just Click On The Button Below And Do As Instructed.
+    Then You Have To Follow All The Steps Below Properly..</b>
     <br>
-    Star The Repo If You Like Our Projects.</b>
-    <br>
-    <a href="https://heroku.com/deploy?template=https://github.com/IndianBots/BinChecker"><img src="https://www.herokucdn.com/deploy/button.svg" /></a>
+    Steps --
+    
+    Create A New Heroku App
+    Fork The Repositoy
+    Edit The app.json FIle And Add The Forked Repository Link..
+    
+    Then Connect Your Gthub Account To Heroku And Add
+    The Following Environmental Variables..
+    
+    BotToken - The Telegram Bot Token.
+    ChannelId - The Id Of The Channel That The User Should Join To Use, Make Sure The Bot Is In The Channel.
+    DART_SDK_URL - https://storage.googleapis.com/dart-archive/channels/stable/release/2.10.4/sdk/dartsdk-linux-x64-release.zip
+    
+    Then Add The Following BuildPack
+    
+        https://github.com/igrigorik/heroku-buildpack-dart
+    
+    Then Deploy The Bot.. You Are Done.....
+    Star If Works.
+
+
 </details>
 
 
