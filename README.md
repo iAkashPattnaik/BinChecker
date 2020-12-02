@@ -14,8 +14,9 @@
 ```python
 This Was Built On IntelliJ Idea By JetBrains
 For IndianBots.
+Under The Terms And Conditions Of The GNU Public License V3.0
 
-Under The Terms And Conditions Of The GNU Public Licens V3.0
+Sponcer And We Will Make You Awesome Bots.
 
 Star The Project For Futher Updates.
 ```
@@ -738,25 +739,26 @@ dart bin/DartChecker.dart
     Then You Have To Follow All The Steps Below Properly..</b>
     <br>
     Steps --
-    
-    Create A New Heroku App
-    Fork The Repositoy
-    Edit The app.json FIle And Add The Forked Repository Link..
-    
-    Then Connect Your Gthub Account To Heroku And Add
-    The Following Environmental Variables..
-    
-    BotToken - The Telegram Bot Token.
-    ChannelId - The Id Of The Channel That The User Should Join To Use, Make Sure The Bot Is In The Channel.
-    DART_SDK_URL - https://storage.googleapis.com/dart-archive/channels/stable/release/2.10.4/sdk/dartsdk-linux-x64-release.zip
-    
-    Then Add The Following BuildPack
-    
-        https://github.com/igrigorik/heroku-buildpack-dart
-    
-    Then Deploy The Bot.. You Are Done.....
-    Star If Works.
 
+```pythonregxp
+Create A New Heroku App
+Fork This Repository
+Edit The app.json FIle And Add The Forked Repository Link..
+
+Then Connect Your Github Account To Heroku And Add
+The Following Environmental Variables..
+
+BotToken - The Telegram Bot Token.
+ChannelId - The Id Of The Channel That The User Should Join To Use, Make Sure The Bot Is In The Channel.
+DART_SDK_URL - https://storage.googleapis.com/dart-archive/channels/stable/release/2.10.4/sdk/dartsdk-linux-x64-release.zip
+
+Then Add The Following BuildPack
+
+    https://github.com/igrigorik/heroku-buildpack-dart
+
+Then Deploy The Bot.. You Are Done.....
+Star If Works.
+```
 
 </details>
 
