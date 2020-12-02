@@ -16,7 +16,7 @@ This Was Built On IntelliJ Idea By JetBrains
 For IndianBots.
 Under The Terms And Conditions Of The GNU Public License V3.0
 
-Sponcer And We Will Make You Awesome Bots.
+Sponsor And We Will Make You Awesome Bots.
 
 Star The Project For Futher Updates.
 ```
