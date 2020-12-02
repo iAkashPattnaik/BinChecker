@@ -7,12 +7,12 @@
     "website": "https://github.com/IndianBots/BinChecker",
     "success_url": "",
     "env": {
-        "ChannelId": {
+        "CHANNEL_ID": {
             "description": "The Id Of The Channel Where Users Will Join To Use The Bot.",
             "value": "",
-            "required": false
+            "required": true
         },
-        "BotToken": {
+        "BOT_TOKEN": {
             "description": "The Token Of The Bot.",
             "value": "",
             "required": true
