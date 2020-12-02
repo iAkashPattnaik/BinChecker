@@ -174,7 +174,7 @@ void main() {
           'Database : PostgreSQL 12.4\n'
           'Operating System : ${io.Platform.operatingSystem}\n'
           'Number Of Processors : ${io.Platform.numberOfProcessors}\n'
-          'Dart SDK Link : <a href="${Platform.environment['DART_SDK_LINK']}"></a>\n'
+          'Dart SDK Link : <a href="${Platform.environment['DART_SDK_LINK']}">Click Here</a>\n'
           'Dart Version : 2.11.0-189.0.dev (dev)\n\n'
           'Deployed To : Heroku (For Now)</b>',
           parse_mode: 'html'
