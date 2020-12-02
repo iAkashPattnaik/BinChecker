@@ -25,7 +25,7 @@
     },
     "buildpacks": [
         {
-            "url": "heroku/dart"
+            "url": "https://github.com/graphicbeacon/heroku-buildpack-dart.git"
         }
     ]
 }
