@@ -10,7 +10,7 @@
         "ChannelId": {
             "description": "The Id Of The Channel Where Users Will Join To Use The Bot.",
             "value": "",
-            "required": flase
+            "required": false
         },
         "BotToken": {
             "description": "The Token Of The Bot.",
