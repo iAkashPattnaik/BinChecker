@@ -40,7 +40,7 @@ The GPL-3.0-only License
 <details>
     <summary>Click Here To See Deployment Process On LocalServer</summary>
     <br>
-    <b>Edit The `bin/BinChecker.dart` File..
+    <b>Edit The <code lang="python">bin/BinChecker.dart</code> File..
     <br>
     Replace Token With Your Bot Token And Done.
     <br>
