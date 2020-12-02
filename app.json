@@ -3,19 +3,14 @@
     "description": "A BinChecker Bot Made In Pure Dart Native.",
     "logo": "https://raw.githubusercontent.com/IndianBots/BinChecker/main/bin/logo.png",
     "keywords": ["dart", "telegram", "bug-less", "advanced"],
-    "repository": "https://github.com/IndianBots/BinChecker/",
-    "website": "https://github.com/IndianBots/BinChecker/",
-    "success_url": "https://github.com/IndianBots/BinChecker/",
+    "repository": "https://github.com/IndianBots/BinChecker",
+    "website": "https://github.com/IndianBots/BinChecker",
+    "success_url": "",
     "env": {
-       "ENV": {
-            "description": "For Heroku.",
-            "value": "true",
-            "required": true
-       },
         "ChannelId": {
             "description": "The Id Of The Channel Where Users Will Join To Use The Bot.",
-            "value": "-",
-            "required": true
+            "value": "",
+            "required": flase
         },
         "BotToken": {
             "description": "The Token Of The Bot.",
