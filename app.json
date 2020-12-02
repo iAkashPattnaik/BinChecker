@@ -16,11 +16,16 @@
             "description": "The Token Of The Bot.",
             "value": "",
             "required": true
+        }.
+        "DART_SDK_URL": {
+            "description": "For Enabling Dart.",
+            "value": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.10.4/sdk/dartsdk-linux-x64-release.zip",
+            "required": true
         }
     },
     "buildpacks": [
         {
-            "url": "https://github.com/graphicbeacon/heroku-buildpack-dart.git"
+            "url": "https://github.com/igrigorik/heroku-buildpack-dart"
         }
     ]
 }
