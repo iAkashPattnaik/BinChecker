@@ -1,6 +1,6 @@
-# <p align="center"><a href="https://github.com/IndianBots/BinChecker"><img src="https://github-readme-stats.vercel.app/api/pin?username=IndianBots&show_icons=true&theme=dracula&hide_border=true&repo=BinChecker"></a></p>
+# <h1 align="center"><a href="https://github.com/IndianBots/BinChecker"><img src="https://github-readme-stats.vercel.app/api/pin?username=IndianBots&show_icons=true&theme=dracula&hide_border=true&repo=BinChecker"></a></h1>
 
-# <h1 align="center"><b>BinChecker</b></h1>
+<h1 align="center"><b>BinChecker</b></h1>
 
 #### Table Of Contents
 * [Notice](#Notice)
