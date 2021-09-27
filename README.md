@@ -3,15 +3,15 @@
 <h1 align="center"><b>BinChecker</b></h1>
 
 #### Table Of Contents
-* [Notice](#Notice)
-* [License](#License)
-* [Creator](#Creator)
-* [Tools And Languages Used](#Tools-And-Languages-Used)
-* [Deployment](#Deployment)
+* [Notice](#notice)
+* [License](#license)
+* [Creator](#creator)
+* [Tools And Languages Used](#tools-and-languages-used)
+* [Deployment](#deployment)
 
 
 ## Notice
-```python
+```
 This Was Built On IntelliJ Idea By JetBrains
 For IndianBots.
 Under The Terms And Conditions Of The GNU Public License V3.0
@@ -24,8 +24,9 @@ Star The Project For Futher Updates.
 ## License
 <details>
     <summary>Click Here To See The License.</summary>
-    
-```dart
+<br/>
+
+```
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
